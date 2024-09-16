@@ -163,4 +163,4 @@ print("Random Forest Model (Test Set) Classification Report:")
 print(classification_report(y_test, y_pred_test))
 
 # Save the final model for future use
-joblib.dump(best_rf_model, 'final_rf_model.pkl')
+joblib.dump(best_rf_model, 'final_model.pkl')
